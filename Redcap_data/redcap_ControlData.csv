@@ -1,0 +1,13 @@
+record_id,redcap_repeat_instrument,redcap_repeat_instance,enroll_date,age,sex,phone_type,enrollment_complete,ga_date,leg_length_left,leg_length_right,mobility_devices,braces_used,sensorid_rf,sensorid_lf,sensorid_t,walk_data,walk_1_t,walk_2_t,walk_3_t,tug_data,tug_1_t,tug_2_t,tug_3_t,berg_1,berg_2,berg_3,berg_4,berg_5,berg_6,berg_7,berg_8,berg_9,berg_10,berg_11,berg_12,berg_13,berg_14,berg_data,vicon,gait_assessment_notes,gait_and_motor_function_assessment_complete,complete_study,withdraw_reason,study_comments,completion_data_complete
+C01,,,7/12/2021,25,Male,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,Returned sensor and charging cable 8/26/21    Payment form submitted 9/21/21  Mailed ClinCard 10/6/21,1
+C01,gait_and_motor_function_assessment,1,,,,,,7/12/2021,98,98,None,None,FC0B,DAD7,C6F1,,4.69,4.38,4.32,,9.53,9.41,9.47,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,,,1,,,,
+C02,,,7/15/2021,56,Female,iPhone,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,Returned sensor and charging cable 8/18/21    Payment submitted 8/26/21        ,1
+C02,gait_and_motor_function_assessment,1,,,,,,7/15/2021,86.9,87,None,None,FC0B,DAD7,C6F1,,4.53,4.37,4.35,,7.38,7.07,6.57,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,,,1,,,,
+C03,,,9/23/2021,54,Female,"iPhone XR, ios 14.7.1",0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,Submitted payment 10/27/21,1
+C03,gait_and_motor_function_assessment,1,,,,,,9/23/2021,83,83,,,FC0B,DAD7,C6F1,,4.6,4.25,4.66,,8.84,8.47,8.06,4,4,,4,4,4,4,4,4,4,4,4,4,4,,,,0,,,,
+C04,,,11/12/2021,22,Male,"iPhone Xr, iOS 14.7.1",0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,paid,0
+C04,gait_and_motor_function_assessment,1,,,,,,11/12/2021,90,90,,,FC0B,DAD7,C6F1,,4.42,5.13,4.39,,8.26,7.65,7.45,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,,,0,,,,
+C05,,,11/16/2021,21,Male,"iPhone X, iOS 15.1, model # MQA92ZP/A",0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,paid,0
+C05,gait_and_motor_function_assessment,1,,,,,,11/16/2021,106,106,,,FC0B,DAD7,C6F1,,5,4.66,4.63,,7.88,7.71,7.41,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,,,0,,,,
+C06,,,11/17/2021,26,Male,"Google Pixel 6, Android 12",1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,paid,0
+C06,gait_and_motor_function_assessment,1,,,,,,11/17/2021,94.2,94.2,,,FCOB,DAD7,C6F1,,5.85,5.31,5.4,,10.1,9.06,9.03,4,4,4,4,4,4,4,4,4,4,4,4,4,4,,,,1,,,,
