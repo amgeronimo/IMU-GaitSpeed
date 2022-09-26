@@ -35,7 +35,7 @@ colors = [0 0 0; .7 0 0; 0 0 .7; 0 0 0];
 color_all = repmat(colors,length(controls_imudata_all),1);
 lbls_con = repmat({'M','S','V',''},1,length(controls_imudata_all));
 h = figure('Position',[0 0 300 300]);
-boxplot(labdata_controls,labdata_groupC,'labels',lbls_con,'LabelOrientation','inline','Colors',color_all,'widths',.8)
+boxplot(labdata_controls,labdata_groupC,'labels',lbls_con,'LabelOrientation','horizontal','Colors',color_all,'widths',.8)
 o = findobj(gcf,'tag','Outlier');
 set(o,'Color','k')
 ylabel('Walking Speed (m/s)')

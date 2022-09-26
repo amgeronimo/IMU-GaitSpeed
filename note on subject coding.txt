@@ -1,0 +1,1 @@
+In this repository, control subjects are labeled with code formatted CXX.  Patients are labeled with SCXX.  Patient codes have been relabeled to PXX in the paper for clarity.  Data labeled with the subject code without an appendix was recorded in home.  Data labeled with the TMW appendix are the in-lab ten-meter walk recordings from the left and right feet separately.

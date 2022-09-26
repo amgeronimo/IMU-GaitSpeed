@@ -322,8 +322,6 @@ for i = 1:length(GA)
                 GA_IMU(ki).SL = IMUstats.SL;  %/3.281; %convert to meters
                 GA_IMU(ki).DU = IMUstats.DU;
                 GA_IMU(ki).WS = GA_IMU(ki).SL./GA_IMU(ki).DU;
-                disp(['processed IMU gait assessment data for ' tmp2 '_',...
-                    GA_IMU(ki).date]);
 
                 ki=ki+1; % moved up 3 levels
             end
@@ -600,6 +598,13 @@ lme_2 = fitlm(lme_tbl_2,'WS ~ Identifier + SubjectType')
 
 
 %% Walking speed over time
+HOME_WS_all = [HOME_WS(:)];
+HOME_WS_all(cellfun(@isempty, HOME_WS_all))=[];
+h = zeros(length(HOME_WS_all),1);
+p = zeros(length(HOME_WS_all),1);
+for i = 1:length(HOME_WS_all)
+    [h(i),p(i)] = lillietest(HOME_WS_all{i});
+end
 
 code_pat = LAB_CODE(1:9);
 
@@ -648,7 +653,7 @@ text.wsovertime = ['Patients'' initial home walking speeds ranged from ',...
     ' between .7 and 1, and ' sprintf('%.0f',sum(firstws>1)) ' patients',...
     ' greater than 1 m/s.',...
     ' Change in walking speed was ' sprintf('%.4f',lme_hws.Coefficients.Estimate(2)),...
-    ' m/s/day (p = ' sprintf('%.3f',lme_hws.Coefficients.pValue(2)) ').'];
+    ' m/s/day (p = ' sprintf('%.3f',lme_hws.Coefficients.pValue(2)) ').']
 
 
 %% Linear model, ws over time change compared to assist device changes
